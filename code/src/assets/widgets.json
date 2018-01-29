@@ -199,6 +199,49 @@
           },
         "renderer_name":"iconlist",
         "params":""
+    },
+    {  
+        "widget_id":"222",
+        "title":"Vowel Courses Bootstrap",
+        "page_id":"222",
+        "dataSource" : {
+          "name" : "tjlms-courses",
+          "config" : {
+              "baseUrl":"https://intranet.tekdi.net/api",
+              "token": "f433ad6704bf118f4858fa233c6670c1d351f1a9"
+           }
+          },
+        "renderer_name":"grid",
+        "params":"",
+        "family":"BS4"
+    },
+    {  
+        "widget_id":"333",
+        "title":"Vowel Courses MDB",
+        "page_id":"333",
+        "dataSource" : {
+          "name" : "tjlms-courses",
+          "config" : {
+              "baseUrl":"https://intranet.tekdi.net/api",
+              "token": "f433ad6704bf118f4858fa233c6670c1d351f1a9"
+           }
+          },
+        "renderer_name":"grid",
+        "params":"",
+        "family":"MDB"
+    },
+    {  
+        "widget_id":"444",
+        "title":"Vowel Courses Semantic",
+        "page_id":"444",
+        "dataSource" : {
+          "name" : "tjlms-courses",
+          "config" : {
+              "baseUrl":"https://intranet.tekdi.net/api",
+              "token": "f433ad6704bf118f4858fa233c6670c1d351f1a9"
+           }
+          },
+        "renderer_name":"grid",
+        "params":""
     }
-
 ]
